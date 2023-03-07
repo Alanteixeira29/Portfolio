@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: #dddddd;
+    color: #dddddd;
+}
+
+nav{
+    background: #82bd64;
+    margin-top: -1.1%;
+    height: 50px;
+}
+
+#content{
+    background: #82bd64;
+    height: 890px;
+}
