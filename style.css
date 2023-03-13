@@ -1,16 +1,18 @@
 body{
     margin: 0;
-    background-color: #dddddd;
-    color: #dddddd;
 }
 
 nav{
-    background: #82bd64;
-    margin-top: -1.1%;
-    height: 50px;
+    height: 60px;
+    color: #e6e6e6;
 }
 
-#content{
-    background: #82bd64;
-    height: 890px;
+section{
+    height: 879px;
+    background: linear-gradient(to bottom, #84fab0, #8fd3f4);
+}
+
+.content{
+    position: absolute;
+    color: rgb(24, 24, 24);
 }
