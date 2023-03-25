@@ -51,3 +51,8 @@ function shuffleArray(array) {
 
     return array;
 }
+
+function loading(){
+    document.getElementsByClassName('box-load')[0].style.display = "none"
+    document.getElementsByClassName('page')[0].style.display = "block"
+}

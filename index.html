@@ -8,25 +8,33 @@
     <link rel="stylesheet" href="style.css">
     <title>Alan Teixeira</title>
 </head>
-<body>
+<body onload="loading()">
+
+    <div class="box-load">
+        <div class="pre"></div>
+    </div>
+    
+<div class="page"> 
     <nav>
+        
+        
         <div class="content">
             
             <div class="container-2">
                 <svg viewBox="0 0 960 300">
-                  <symbol id="s-text">
+                <symbol id="s-text">
                     <text text-anchor="middle" x="50%" y="80%">Portfolio</text>
-                  </symbol>
-              
-                  <g class = "g-ants">
+                </symbol>
+            
+                <g class = "g-ants">
                     <use xlink:href="#s-text" class="text-copy"></use>
                     <use xlink:href="#s-text" class="text-copy"></use>
                     <use xlink:href="#s-text" class="text-copy"></use>
                     <use xlink:href="#s-text" class="text-copy"></use>
                     <use xlink:href="#s-text" class="text-copy"></use>
-                  </g>
+                </g>
                 </svg>
-              </div>
+            </div>
             <ul class="list-nav">
                 <li><a href="index.html" id="links-nav">Início</a></li>
                 <li><a href="#" id="links-nav">Sobre</a></li>
@@ -51,6 +59,8 @@
             <img src="components/euuu.png" alt="" srcset="" class="eu-logo">
         </div>
     </main>
+</div>
+   
     <script src="script.js"></script>
 </body>
 </html>
