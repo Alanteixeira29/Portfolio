@@ -6,7 +6,7 @@ function typingEffect() {
 
     setInterval(() => { // We define the interval of the typing speed
 
-        // If we do not reach the limit, we insert characters in the html
+        
         if (char < contactTexts[idx].length) typedtext.innerHTML += contactTexts[idx][char];
 
         // 15*150ms = time before starting to remove characters
